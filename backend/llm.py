@@ -1,14 +1,5 @@
 """
-The ONLY place in Herald that talks to an LLM.
-
-Every call goes to the local Hermes API server, which is itself configured
-(on the Hermes side, not here) to use OpenAI as its model provider. This
-file must never import an OpenAI/Groq/Anthropic SDK or call anything other
-than HERMES_URL — that's the qualifying condition for the buildathon
-(backend -> Hermes -> OpenAI, never backend -> OpenAI directly).
-
-If you need to audit every LLM call Herald makes, this file is the whole
-audit surface.
+Modified to connect directly to OpenAI for live cloud deployment.
 """
 
 import json
@@ -18,9 +9,9 @@ import re
 import httpx
 from langfuse.decorators import observe
 
-HERMES_URL = os.environ.get("HERMES_URL", "http://localhost:8642/v1/chat/completions")
-HERMES_KEY = os.environ.get("HERMES_KEY", "herald-local-dev")
-HERMES_MODEL = os.environ.get("HERMES_MODEL", "gpt-5.6-sol")
+OPENAI_URL = os.environ.get("OPENAI_API_URL", "https://api.openai.com/v1/chat/completions")
+OPENAI_KEY = os.environ.get("OPENAI_API_KEY", "")
+OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 
 _FENCE_RE = re.compile(r"^```(?:json)?\s*|\s*```$", re.MULTILINE)
 
@@ -33,7 +24,7 @@ def call_hermes(system: str, user: str, *, temperature: float = 0.3) -> str:
     response-shape failure so callers can turn it into a clean HTTP error.
     """
     payload = {
-        "model": HERMES_MODEL,
+        "model": OPENAI_MODEL,
         "messages": [
             {"role": "system", "content": system},
             {"role": "user", "content": user},
@@ -41,17 +32,17 @@ def call_hermes(system: str, user: str, *, temperature: float = 0.3) -> str:
         "temperature": temperature,
     }
     headers = {
-        "Authorization": f"Bearer {HERMES_KEY}",
+        "Authorization": f"Bearer {OPENAI_KEY}",
         "Content-Type": "application/json",
     }
 
     try:
-        response = httpx.post(HERMES_URL, json=payload, headers=headers, timeout=60.0)
+        response = httpx.post(OPENAI_URL, json=payload, headers=headers, timeout=60.0)
         response.raise_for_status()
         data = response.json()
         return data["choices"][0]["message"]["content"]
     except httpx.HTTPError as exc:
-        raise RuntimeError(f"Could not reach Hermes at {HERMES_URL}: {exc}") from exc
+        raise RuntimeError(f"Could not reach OpenAI API: {exc}") from exc
     except (KeyError, IndexError, ValueError) as exc:
         raise RuntimeError(f"Unexpected response shape from Hermes: {exc}") from exc
 
