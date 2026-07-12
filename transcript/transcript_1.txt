@@ -1,0 +1,16 @@
+Meeting Type: Hiring Debrief (Short)
+
+Sarah: Okay, let's make this quick. We need a decision on the two candidates for the senior frontend role, Alex and Brian.
+Mike: I'll go first. I didn't love Alex. His technical skills were fine, but he seemed really hesitant on the system design questions.
+Dave: Yeah, I agree. He got completely stuck when I asked about state management. I think it's a pass.
+Sarah: Alright, I can handle that. I'll shoot him an email letting him know we're moving on with other candidates. What about Brian?
+Mike: Brian was much better. Great communication, solid React knowledge. But I'm a little worried he hasn't worked on a large-scale app before.
+Sarah: Should we bring him in for an onsite? Or maybe we can give him an offer now? We are in a rush.
+Dave: I don't think we should jump to an offer yet. Maybe another technical screen?
+Mike: Wait, actually, instead of another screen, what if we give him that take-home assessment we used last year? The one with the dashboard?
+Sarah: That's a good idea. Who has the link to that?
+Mike: I can dig it up. I'll send the assessment over to Brian by the end of the day.
+Dave: Perfect. Once he submits it, I'll review his code and then reach out to him to schedule a follow-up call if it looks good.
+Sarah: Wait, Dave, you're reviewing it? I thought I was supposed to review the frontend tests.
+Dave: Oh, right. Sorry. You review it, and then just ping me the results and I'll handle the scheduling.
+Sarah: Sounds good. I'll review it as soon as he submits.

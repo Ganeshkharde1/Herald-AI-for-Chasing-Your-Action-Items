@@ -1,0 +1,39 @@
+Meeting Type: Sales Team Pipeline Review (Long)
+
+Marcus: Morning everyone. Let's dive right into the pipeline. We have a lot of ground to cover for Q3. Eric, let's start with you. How are things looking with TechCorp?
+Eric: It's moving along, but slowly. They're asking for a lot of custom integrations, which is pushing the price up. I had a good call with their CTO on Tuesday, though.
+Marcus: Do they have the budget for it?
+Eric: They say they do, but they need a formal proposal outlining exactly what the custom work entails and the timeline.
+Marcus: Okay, get that to them ASAP. We can't let this stall.
+Eric: I know. I'll draft the enterprise proposal for TechCorp and get it to them by Friday. I might need sales engineering to look over the technical specs though.
+Marcus: Coordinate with David on the SE team, but you own the proposal. Alright, Kevin, talk to me about the mid-market accounts.
+Kevin: Mid-market is looking healthy. I just closed two smaller deals this morning, and I've got Acme Corp on the hook.
+Julia: Wait, Acme Corp? I literally just had a discovery call with them yesterday.
+Kevin: What? I spoke to them last quarter. They were a cold lead that I've been nurturing.
+Julia: They came inbound through the website on Monday and booked a demo with me. I had no idea they were in your pipeline.
+Marcus: Hold on, let's look at Salesforce. Kevin, did you log your activity from last quarter?
+Kevin: Yeah, it should be in there.
+Marcus: I see a note from April, but no recent activity. Because it was dormant, it routed to Julia as a new inbound lead.
+Julia: So who takes it? I've already established rapport with the buyer.
+Marcus: Technically, since Kevin didn't have active engagement in the last 60 days, it goes to Julia. Julia, you take Acme.
+Kevin: That's frustrating, I put a lot of work into warming them up.
+Marcus: I know, but we have to follow the rules of engagement. Actually, you know what? Since Kevin knows their history and Julia has the current momentum, why don't you two co-pilot it? Split the commission 50/50.
+Julia: I'm fine with that.
+Kevin: Yeah, that works for me.
+Marcus: Great. Kevin, forward your old notes on Acme to Julia so she has the full context. Julia, you go ahead and schedule the product demo with them for next week.
+Julia: Will do. I'll get that scheduled today.
+Marcus: Now, Nina, what happened with Globex? I saw that moved to closed-lost.
+Nina: Yeah, their budget got frozen until next year. The champion I was working with actually left the company, and the new VP of Procurement completely killed the deal.
+Marcus: That's a huge hit to our forecast. Are they completely dead or just paused?
+Nina: Officially closed-lost, but I think they might revisit in Q1.
+Marcus: Don't just let them sit there. I want you to stay on their radar.
+Nina: I agree. I'll follow up with the new VP at Globex just to introduce myself and keep the relationship warm. I'll do that next week once the dust settles.
+Marcus: Good. We need to make up that gap in the forecast though. I'm going to recalculate our quotas for the rest of the quarter.
+Kevin: Are the targets going up?
+Marcus: Slightly. I'll send out the updated Q3 targets by EOD today so everyone knows what they're aiming for.
+Eric: Quick question on the targets, Marcus. If we bring in a multi-year deal, does the entire contract value count towards this quarter's quota?
+Marcus: No, just the first year ARR. We covered this in the kickoff.
+Eric: Right, just double checking. I'm trying to see if I can incentivize TechCorp to sign a two-year deal.
+Marcus: Offer them a 5% discount if they sign for two years, but don't lead with it. Keep it in your back pocket.
+Eric: Got it. I'll include that option in the proposal I'm drafting.
+Marcus: Awesome. Let's hit the phones and make it a great week, team.

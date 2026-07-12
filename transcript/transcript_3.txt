@@ -1,0 +1,21 @@
+Meeting Type: Product Sprint Planning Call (Medium)
+
+Alex: Alright team, let's look at the backlog for sprint 42. Our main goal is the new user onboarding flow.
+Ben: The designs for that are finally locked, right?
+Chloe: Yes, Figma is updated and approved by design. I've broken down the frontend tasks into three tickets.
+Alex: Great. Who's taking the UI components ticket?
+Ben: I'll grab that one. I've already been looking at the mockups.
+Sam: Wait, Ben, aren't you on PTO next week? The UI ticket is like a 5-point task, and you're only here till Wednesday.
+Ben: Oh shoot, you're right. I'm taking Thursday and Friday off. I might not finish it.
+Sam: I can take the UI components then. I have capacity this sprint.
+Ben: Okay, cool. I'll take the smaller tickets—updating the user model and fixing those tooltip bugs.
+Alex: Sounds like a plan. Now, what about the backend? We need to migrate the user table to support the new preferences schema.
+Chloe: I can handle the API spec for that. I'll write up the Swagger docs by tomorrow morning so whoever does the backend has a clear contract.
+Ben: I'll do the database migration. It shouldn't take more than a day, so I can definitely finish it before I leave.
+Alex: Okay, let me make sure I'm getting this down. Sam, you're doing the UI components. Ben, you've got the DB migration, tooltip bugs, and user model update.
+Chloe: And I'll do the API spec. But Ben, before you start the migration, can you review the spec I write? Just to make sure we're on the same page.
+Ben: Yeah, definitely. Send it to me when it's ready.
+Alex: Awesome. I'll go ahead and update the Jira board right now and assign everything out.
+Sam: Hey Alex, before we wrap, we also had that technical debt ticket for refactoring the auth middleware. Do we have time for it?
+Alex: Let's see... we're at about 25 points. I think that might push us over the edge. Let's leave it in the backlog for now and if we finish early, we can pull it in.
+Sam: Fair enough.

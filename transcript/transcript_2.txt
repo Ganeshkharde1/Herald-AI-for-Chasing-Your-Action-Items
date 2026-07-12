@@ -1,0 +1,17 @@
+Meeting Type: Client Status Update (Short)
+
+Rachel: Hey everyone, thanks for jumping on. Just a quick touchpoint before our call with the Zenith team tomorrow. Are we all set with the slide deck?
+Greg: Almost. I still need to update the Q3 projections slide. The numbers came in late yesterday.
+Rachel: Can you get that done today?
+Greg: Yeah, I'll update the timeline and projections slide by 3 PM.
+Olivia: Do you need me to pull the new user metrics for that?
+Greg: No, I got them from analytics already, thanks.
+Rachel: Okay, and who is sending the weekly status report to Zenith? Usually I do it, but I'm swamped. Greg, can you take that?
+Greg: I can, but Olivia usually handles the weekly reports when you're busy, right?
+Olivia: Yeah, I usually do it. But wait, didn't we say last week that we were going to automate the report?
+Rachel: We did, but the automation isn't ready yet. Let's just do it manually one more time.
+Olivia: No problem, I'll compile the report and send it to the client by EOD today.
+Rachel: Awesome. Once Greg finishes the slide, can someone double-check the formatting? It looked a bit weird yesterday.
+Olivia: I can look at it.
+Rachel: Actually, let me review it. Greg, just ping me when it's done and I'll review the deck before I log off.
+Greg: Will do.

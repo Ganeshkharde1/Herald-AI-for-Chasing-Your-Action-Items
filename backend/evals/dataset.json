@@ -1,0 +1,15 @@
+[
+  {
+    "transcript": "Sarah: Let's launch on Tuesday. Mike: I'll prepare the marketing email and get it out by Monday.",
+    "expected_action_items": [
+      {"owner": "Mike", "text": "Prepare the marketing email and get it out by Monday"}
+    ]
+  },
+  {
+    "transcript": "Alex: I'm going to review the frontend tests.\nDave: Wait, no, I thought I was doing that?\nAlex: Oh right, sorry. You review them, and I'll handle the scheduling.\nDave: Sounds good.",
+    "expected_action_items": [
+      {"owner": "Dave", "text": "Review the frontend tests"},
+      {"owner": "Alex", "text": "Handle the scheduling"}
+    ]
+  }
+]

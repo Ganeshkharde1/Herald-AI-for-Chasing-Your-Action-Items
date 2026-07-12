@@ -1,0 +1,20 @@
+Meeting Type: Marketing Campaign Check-in (Medium)
+
+Jessica: Let's get started. We're two weeks out from the launch of the summer campaign, and we need to finalize our paid social strategy.
+Tom: The ad copy is about 80% there. I just need to tweak the call-to-actions based on the A/B test results we got on Friday.
+Liam: Have you seen those results? It looks like "Shop Now" is heavily outperforming "Learn More".
+Tom: Yeah, I saw that. I'll finalize all the copy using "Shop Now" and have it ready by Wednesday.
+Emma: What about the creative assets? I know we were waiting on the lifestyle photos from the agency.
+Jessica: They sent them over last night. They look good, but they need some slight color grading.
+Emma: I'll ping our internal creative team to get the new assets polished up. They should be able to turn that around in a day or two.
+Jessica: Perfect. Now, let's talk budget allocation. Liam, where are we putting the bulk of the spend?
+Liam: Right now, the plan is to push 60% of the budget into Instagram Reels, 20% into Facebook, and 20% into TikTok.
+Jessica: Honestly, I don't think Instagram Reels should get that much. Our organic engagement on TikTok has been through the roof lately. I think we need to lean into that.
+Liam: You think we should flip it? 60% TikTok?
+Jessica: No, maybe split it evenly. 40% TikTok, 40% Instagram, 20% Facebook.
+Tom: I agree with Jessica. TikTok is where the Gen Z audience is for this product.
+Liam: Alright, let me play with the numbers. I'll adjust the budget allocation document to reflect that new split.
+Jessica: Thanks. Once everyone has their pieces done, I want to do one final review. Tom, Emma, Liam, please have everything ready by Thursday afternoon. I'll review the final drafts on Thursday before we go live on Monday.
+Emma: Got it. Just to clarify, Jessica, do you want me to just drop the final assets in the shared Drive?
+Jessica: Yes, the shared Drive is fine. Just Slack me the link when they're uploaded.
+Emma: Will do.
