@@ -18,6 +18,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from fastapi import FastAPI, Header, HTTPException
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+from pathlib import Path
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -487,3 +490,15 @@ def checkout_confirm(x_auth_token: str | None = Header(default=None)):
     user = get_current_user(x_auth_token)
     confirm_payment(user["id"])
     return {"tier": "paid"}
+
+# ---------------------------------------------------------------------------
+# Frontend Static Files
+# ---------------------------------------------------------------------------
+
+frontend_path = Path(__file__).parent.parent / "frontend"
+
+@app.get("/")
+def serve_index():
+    return FileResponse(frontend_path / "index.html")
+
+app.mount("/", StaticFiles(directory=frontend_path), name="frontend")

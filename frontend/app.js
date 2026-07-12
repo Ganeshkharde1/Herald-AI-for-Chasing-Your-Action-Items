@@ -2,8 +2,9 @@
 //
 // If your backend isn't running on localhost:8000, change API_BASE below —
 // nothing else in this file needs to change.
-// IMPORTANT: When deploying to Cloudflare Pages, change this to your live backend URL (e.g., "https://hermes-backend.onrender.com")
-const API_BASE = "http://localhost:8000";
+// If your backend isn't running on localhost:8000, change API_BASE below —
+// nothing else in this file needs to change.
+const API_BASE = "";
 
 // ---------------------------------------------------------------------------
 // Auth / storage helpers
